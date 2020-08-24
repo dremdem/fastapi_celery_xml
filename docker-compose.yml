@@ -23,6 +23,7 @@ services:
     depends_on:
       - db
       - redis
+      - worker
     command: python main.py
   worker:
     build: ./fastapi_app
