@@ -29,7 +29,6 @@ services:
     build: ./fastapi_app
     restart: always
     depends_on:
-      - web
       - redis
     command: celery -A tasks worker --loglevel=info
     volumes:
