@@ -3,7 +3,7 @@
 docker-compose build
 docker-compose up -d
 
-# set -x
+set -x
 
 JSON_HEAD='content-type: application/json'
 
