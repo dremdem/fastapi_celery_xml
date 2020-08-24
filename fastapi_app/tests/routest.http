@@ -1,0 +1,30 @@
+### Send POST request with json body
+POST http://localhost:8000/urls
+Content-Type: application/json
+
+{
+  "url": "aksdgasjkhdasjd"
+}
+
+###
+POST http://localhost:8000/urls
+Content-Type: application/json
+
+{
+  "url": "https://hub.b2basket.ru/media/test_problem/file_1.xml"
+}
+
+###
+GET http://localhost:8000/urls
+Content-Type: application/json
+
+###
+POST http://localhost:8000/urls
+Content-Type: application/json
+
+{
+  "url": "https://hub.b2basket.ru/media/test_problem/file_2.xml"
+}
+
+###
+
