@@ -5,7 +5,6 @@ file_1.xml
 file_2.xml
 Pipfile
 Pipfile.lock
-test.sh
 sqlalchemy_test/*
 fastapi_test/*
 docker_test/*
